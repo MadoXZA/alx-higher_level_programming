@@ -18,7 +18,7 @@ int check_cycle(listint_t *list)
 	{
 		stadig = stadig->next;
 		vinnig = vinnig->next->next;
-		if (slow == vinnig)
+		if (stadig == vinnig)
 			return (1);
 	}
 
